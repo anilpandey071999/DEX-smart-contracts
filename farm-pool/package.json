@@ -1,0 +1,15 @@
+{
+  "name": "kyoto-swap-farm-pools",
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.3",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "postinstall": "hardhat compile --force"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@openzeppelin/contracts": "^3.4.2"
+  }
+}

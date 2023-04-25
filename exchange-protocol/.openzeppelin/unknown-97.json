@@ -1,0 +1,201 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x2cd95740CCcA08c97391E959fe323D9c903BA62B",
+      "txHash": "0x6f05da06e510f8dbeec1f7a7a25ebf8dfc012118e6e5d39a12f873088ae7826f",
+      "kind": "uups"
+    },
+    {
+      "address": "0x095eb24a339345552dc6bAcf3EF8a81C7C414c09",
+      "txHash": "0xa15aa951f2072d9d382e0b90329d41c4fa500bab031a6d330ce02303a8b3a799",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "8a6cc6e1678713c0b7d783988aafecda79c10310ff6490f00c7ea28a874261bb": {
+      "address": "0xAcCADd8526FdF4feb1313B60e12a844e624C1b55",
+      "txHash": "0xfebc3cce965dea6e443a3acbf05fa53de9676085974e08beff87dc6d462553ba",
+      "layout": {
+        "solcVersion": "0.8.4",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "kswapToken",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_address",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:59"
+          },
+          {
+            "label": "kyotoSwapRouter",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_contract(IUniswapV2Router02)6294",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:60"
+          },
+          {
+            "label": "operatorAddress",
+            "offset": 0,
+            "slot": "203",
+            "type": "t_address",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:61"
+          },
+          {
+            "label": "kswapBurnAddress",
+            "offset": 0,
+            "slot": "204",
+            "type": "t_address",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:62"
+          },
+          {
+            "label": "kswapVaultAddress",
+            "offset": 0,
+            "slot": "205",
+            "type": "t_address",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:63"
+          },
+          {
+            "label": "kswapBurnRate",
+            "offset": 0,
+            "slot": "206",
+            "type": "t_uint256",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:64"
+          },
+          {
+            "label": "validDestination",
+            "offset": 0,
+            "slot": "207",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:67"
+          },
+          {
+            "label": "WETH",
+            "offset": 0,
+            "slot": "208",
+            "type": "t_contract(IWETH)6314",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:68"
+          },
+          {
+            "label": "operatorTopUpLimit",
+            "offset": 0,
+            "slot": "209",
+            "type": "t_uint256",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:71"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "210",
+            "type": "t_uint256",
+            "contract": "KSFeeHandler",
+            "src": "contracts\\KSFeeHandler.sol:77"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IUniswapV2Router02)6294": {
+            "label": "contract IUniswapV2Router02",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWETH)6314": {
+            "label": "contract IWETH",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
